@@ -19,5 +19,8 @@ class ProjectsController < ApplicationController
     end
   end
 
+  def index
+    @projects = Project.all
+  end
 
 end
